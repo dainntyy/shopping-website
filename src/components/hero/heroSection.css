@@ -1,0 +1,35 @@
+.hero-banner {
+    background-color: #F4F6F5;
+    border-radius: 50px;
+}
+
+.banner-text {
+    /* line-height: 5rem; */
+    text-transform: uppercase;
+}
+
+.banner-description {
+    font-weight: 400;
+}
+
+.banner-button {
+    background-color: black;
+    color: white;
+    width: 120px;
+}
+
+.uniqe {
+    background-color: #EBD96B;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.banner-image {
+    max-width: 80%;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}

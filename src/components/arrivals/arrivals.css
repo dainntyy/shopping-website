@@ -1,0 +1,35 @@
+.card-button img:hover {
+    color: white;
+}
+
+.card-item {
+    border: none;
+}
+
+.group {
+    gap: 5%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.section-title-arrivals {
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title-arrivals::after {
+    content: url('../../assets/images/new_arrivals.svg');
+    width: 20vh;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-20%);
+}

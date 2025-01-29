@@ -2,6 +2,13 @@
   "name": "shopping-website",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "react-scripts": {
+      "@svgr/webpack": "8.1.0",
+      "typescript": "4.9.5",
+      "postcss": "8.4.38"
+    }
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,9 +17,12 @@
     "@types/node": "^16.18.125",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
+    "bootstrap": "^5.3.3",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.8",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "shopping-website": "file:",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ajv": "^8.8.2"
   }
 }

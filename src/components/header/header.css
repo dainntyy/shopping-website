@@ -1,0 +1,24 @@
+.navigation {
+  /* position: relative; */
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 10px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-button {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 110px;
+}
+
+.nav-button:hover {
+    background-color: #E6C744;
+    border: none;
+}

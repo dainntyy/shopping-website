@@ -1,0 +1,16 @@
+.list {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2%;
+    /* background-color: #EBD96B; */
+}
+
+
+.list-item {
+    border: none;
+    padding: 0;
+}

@@ -1,0 +1,102 @@
+.section-container {
+    background: linear-gradient( #fae256, #f6d74d, #e3c646, #e3c646);
+}
+
+.section-title-sale {
+    font-size: 90px;
+    font-weight: 900;
+    text-wrap: wrap;
+    width: 80%;
+    line-height: 6 rem;
+    text-transform: uppercase;
+    
+}
+
+.sale-accent {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.sale-accent::before {
+    content: url('../../assets/images/payday-accent.svg');
+    width: 63vh;
+    height: 20vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -7%;
+    /* transform: translateY(0%); */
+}
+
+.sale-text {
+    line-height: 2rem;
+    width: 80%;
+    font-size: 25px;
+}
+
+.sale-button {
+    width: 120px;
+    text-transform: uppercase;
+}
+
+.sale-image {
+    width: 100%;
+}
+
+
+
+.text {
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 1120px) {
+    .section-title-sale {
+        font-size: 70px;
+        line-height: 5rem;
+    }
+    .text, 
+    .sale-text {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .sale-accent::before {
+        width: 52vh;
+    }
+    
+}
+@media screen and (max-width: 850px) {
+    .section-title-sale {
+        font-size: 60px;
+        line-height: 4rem;
+    }
+    .text, 
+    .sale-text {
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+
+    .sale-accent::before {
+        width: 45vh;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title-sale {
+        font-size: 50px;
+        line-height: 4rem;
+    }
+    .text, 
+    .sale-text {
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+
+    .sale-accent::before {
+        width: 40vh;
+        
+    }
+}
